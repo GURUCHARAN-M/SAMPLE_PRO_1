@@ -1,0 +1,30 @@
+body{
+    background-color: white;
+    margin-left: 300px;
+    width: 800px;
+    height: 800px;
+}
+#page1{
+    /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.VH21kH5xDjnN5XfbDJMDgwHaEK&pid=Api&P=0&h=180"); */
+    margin-top: 150px;
+    text-align: center;
+}
+#page2{
+    align-items: center;
+}
+#page2_1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#page2_2_1{
+    display: flex;
+    /* justify-content: space-between; */
+}
+#page2_4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
