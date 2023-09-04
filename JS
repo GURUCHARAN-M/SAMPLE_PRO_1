@@ -1,0 +1,69 @@
+function login(){
+    let a=document.getElementById("userid").value;
+    let b=document.getElementById("pswdid").value;
+    if(a==="guru" && b==="guru"){
+        document.getElementById("page2").style.display="inline";
+        document.getElementById("page1").style.display="none";
+    }
+    else{
+        alert("Incorrect Username or Password !!!");
+        let a=document.getElementById("userid").innerHTML="";
+        let b=document.getElementById("pswdid").innerHTML="";
+    }
+}
+function add(){
+    document.getElementById("page3").style.display="inline";
+    document.getElementById("page2").style.display="none";
+}
+function like(){
+    document.getElementById("page4").style.display="inline";
+    document.getElementById("page2").style.display="none";
+}
+function sms(){
+    document.getElementById("page5").style.display="inline";
+    document.getElementById("page2").style.display="none";
+}
+function search(){
+    document.getElementById("page6").style.display="inline";
+    document.getElementById("page2").style.display="none";
+}
+function reel(){
+    document.getElementById("page7").style.display="inline";
+    document.getElementById("page2").style.display="none";
+}
+function shop(){
+    document.getElementById("page8").style.display="inline";
+    document.getElementById("page2").style.display="none";
+}
+function profile(){
+    document.getElementById("page9").style.display="inline";
+    document.getElementById("page2").style.display="none";
+}
+function back1(){
+    document.getElementById("page2").style.display="inline";
+    document.getElementById("page3").style.display="none";
+}
+function back2(){
+    document.getElementById("page2").style.display="inline";
+    document.getElementById("page4").style.display="none";
+}
+function back3(){
+    document.getElementById("page2").style.display="inline";
+    document.getElementById("page5").style.display="none";
+}
+function back4(){
+    document.getElementById("page2").style.display="inline";
+    document.getElementById("page6").style.display="none";
+}
+function back5(){
+    document.getElementById("page2").style.display="inline";
+    document.getElementById("page7").style.display="none";
+}
+function back6(){
+    document.getElementById("page2").style.display="inline";
+    document.getElementById("page8").style.display="none";
+}
+function back7(){
+    document.getElementById("page2").style.display="inline";
+    document.getElementById("page9").style.display="none";
+}
